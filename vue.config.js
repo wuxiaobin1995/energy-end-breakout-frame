@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2020-09-11 15:33:41
- * @LastEditTime: 2022-03-09 10:01:02
+ * @LastEditTime: 2022-12-06 10:02:31
  * @Description : vue.config.js
  */
 module.exports = {
@@ -34,8 +34,9 @@ module.exports = {
         },
         nsis: {
           oneClick: false, // 是否一键安装
+          perMachine: true, // 是否总是针对所有用户（每台机器）进行安装
           allowElevation: true, // 允许请求提升。如果为false，则用户必须使用提升的权限重新启动安装程序
-          allowToChangeInstallationDirectory: true, // 允许修改安装目录
+          allowToChangeInstallationDirectory: false, // 允许修改安装目录
           installerIcon: './public/logo.ico', // 安装图标
           uninstallerIcon: './public/delete.ico', // 卸载图标
           installerHeaderIcon: './public/logo.ico', // 安装时头部图标
