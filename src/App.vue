@@ -1,7 +1,7 @@
 <!--
  * @Author      : 吴晓斌
  * @Date        : 2020-09-11 15:24:17
- * @LastEditTime: 2020-09-24 09:24:46
+ * @LastEditTime: 2022-12-16 11:03:10
  * @Description : 根组件
 -->
 <template>
@@ -21,10 +21,10 @@
           <i class="el-icon-s-home"></i>
           <span>普 通 模 式</span>
         </el-menu-item>
-        <el-menu-item index="/train-number">
+        <!-- <el-menu-item index="/train-number">
           <i class="el-icon-s-data"></i>
           <span>组 次 模 式</span>
-        </el-menu-item>
+        </el-menu-item> -->
         <el-menu-item index="/configure">
           <i class="el-icon-edit"></i>
           <span>配 置 页</span>
@@ -32,6 +32,10 @@
         <el-menu-item index="/data-record">
           <i class="el-icon-date"></i>
           <span>数 据 查 看 页</span>
+        </el-menu-item>
+        <el-menu-item index="/data-migration">
+          <i class="el-icon-s-data"></i>
+          <span>数 据 迁 移</span>
         </el-menu-item>
         <el-menu-item>
           <el-button icon="el-icon-refresh" @click="handleRefresh" plain round
