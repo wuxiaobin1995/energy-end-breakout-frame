@@ -1,7 +1,7 @@
 /*
  * @Author      : 吴晓斌
  * @Date        : 2020-09-11 15:24:17
- * @LastEditTime: 2022-12-16 11:02:00
+ * @LastEditTime: 2023-06-26 13:51:01
  * @Description : 路由
  */
 import Vue from 'vue'
@@ -28,12 +28,12 @@ const routes = [
     component: () => import('@/views/train-normal/index.vue')
   },
 
-  /* 组次模式 */
-  {
-    path: '/train-number',
-    name: 'train-number',
-    component: () => import('@/views/train-number/index.vue')
-  },
+  // /* 组次模式 */
+  // {
+  //   path: '/train-number',
+  //   name: 'train-number',
+  //   component: () => import('@/views/train-number/index.vue')
+  // },
 
   /* 配置页 */
   {
